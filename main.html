@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>송영주의 포트폴리오</title>
+    <style>
+      ul,
+      h3 {
+        margin: 0;
+        padding: 0;
+      }
+
+      li {
+        list-style-type: none;
+      }
+
+      header {
+        text-align: center;
+      }
+
+      .profile-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .profile-image {
+        width: 150px;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        transform: rotate(20deg);
+      }
+
+      .education-card {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding: 10px 40px 10px 40px;
+        text-align: left;
+      }
+
+      .education-card:first-of-type {
+        margin-bottom: 10px;
+      }
+
+      .skill-icons img {
+        width: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <header>
+        <h1>
+          안녕하세요, <br />
+          프론트엔드 개발자 지망생 송영주 입니다
+        </h1>
+        <img
+          class="profile-image"
+          src="./img/profile.png"
+          alt="송영주의 미모티콘"
+        />
+      </header>
+      <div class="profile-area">
+        <div class="about">
+          <h2>About Me</h2>
+          <p>
+            사용자 입장에서 먼저 생각하는 개발자, 동료들에게는 함께 일하기
+            즐거운 개발자가 되고 싶습니다. <br />아직 많이 부족하지만 열심히
+            하겠습니다!
+          </p>
+        </div>
+        <div class="education">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              <div class="education-card">
+                <p>2025.07~</p>
+                <h3>프로그래머스 데브코스</h3>
+                <p>프론트엔드 엔지니어링 데브코스 6기 수료중</p>
+              </div>
+            </li>
+            <li>
+              <div class="education-card">
+                <p>2018.02~2023.08</p>
+                <h3>계명대학교</h3>
+                <p>언론영상학과, 컴퓨터공학과 졸업</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="skills">
+          <h2>Skills</h2>
+          <div class="skill">
+            <h3>FrontEnd</h3>
+            <div class="skill-icons">
+              <img src="./img/js.png" alt="javascript 이미지" />
+              <img src="./img/ts.png" alt="typescript 이미지" />
+              <img src="./img/react.png" alt="react 이미지" />
+            </div>
+          </div>
+          <div class="skill">
+            <h3>Library</h3>
+            <div class="skill-icons">
+              <img src="./img/react-query.png" alt="react-query 이미지" />
+              <img
+                src="./img/styled-component.png"
+                alt="styled component 이미지"
+              />
+              <img
+                style="border: 1px solid black"
+                src="./img/recoil.png"
+                alt="recoil 이미지"
+              />
+            </div>
+          </div>
+          <div class="skill">
+            <h3>Tools</h3>
+            <div class="skill-icons">
+              <img src="./img/github.png" alt="github 이미지" />
+              <img src="./img/figma.png" alt="figma 이미지" />
+              <img src="./img/notion.png" alt="notion 이미지" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
