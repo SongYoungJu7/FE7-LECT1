@@ -11,12 +11,43 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 100vh;
+      }
+      div {
+        position: relative;
+        width: 800px;
+      }
+      h1 {
+        line-height: 1.7;
+        font-size: 2.6rem;
+      }
+      h1 span {
+        background-color: black;
+        color: white;
+        padding: 0 7px;
+      }
+      .go-button {
+        border-radius: 20px;
+        text-decoration: none;
+        padding: 10px 40px;
+      }
+      .go-button:hover {
+      }
+      .go-button:visited {
+        color: inherit;
+      }
+      .go-button img {
+        width: 1.8rem;
+      }
+      .go-button span {
+        font-weight: bold;
+        font-size: 1.8rem;
       }
       .profile-image {
         width: 150px;
         position: absolute;
-        top: 30px;
-        right: 60px;
+        bottom: 0px;
+        right: -80px;
         transform: rotate(20deg);
       }
     </style>
@@ -25,7 +56,7 @@
     <div>
       <h1>
         안녕하세요, <br />
-        프론트엔드 개발자 지망생 송영주 입니다
+        프론트엔드 개발자 지망생 <span>송영주</span>입니다
       </h1>
       <img
         class="profile-image"
@@ -33,6 +64,9 @@
         alt="송영주의 미모티콘"
       />
     </div>
-    <a href="./main.html">포트폴리오 살펴보기</a>
+    <a class="go-button" href="./main.html">
+      <span>포트폴리오 살펴보기</span>
+      <img src="img/right-arrow.png" alt="" />
+    </a>
   </body>
 </html>
