@@ -148,3 +148,7 @@ header h1 span {
   border-radius: 50%;
   cursor: pointer;
 }
+
+.contact-btn:hover {
+  opacity: 0.8;
+}
