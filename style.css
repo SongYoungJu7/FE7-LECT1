@@ -22,6 +22,10 @@ li {
 }
 
 .wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 5%;
 }
 
@@ -29,7 +33,6 @@ header {
   position: relative;
   text-align: center;
   width: 800px;
-  margin: auto;
   margin-bottom: 50px;
 }
 
@@ -56,6 +59,8 @@ header h1 span {
 .profile-area {
   display: flex;
   flex-direction: column;
+
+  margin: auto;
 }
 
 .category {
@@ -109,7 +114,7 @@ header h1 span {
 }
 
 .education-card p:first-child {
-  opacity: 0.6;
+  opacity: 0.5;
   font-size: 0.9rem;
 }
 
